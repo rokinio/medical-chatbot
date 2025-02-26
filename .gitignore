@@ -1,0 +1,24 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore large model files
+app/models/
+*.pt
+*.h5
+*.pkl
+*.bin
+*.safetensors
+
+# Ignore PyTorch and Arrow libraries
+*.dylib
+*.so
+*.dll
+
+# Ignore cache
+__pycache__/
+*.pyc
+*.pyo
+logs/
+*.log
+.DS_Store
